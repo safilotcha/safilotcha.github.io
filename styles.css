@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
 }
 
 html {
@@ -96,7 +97,7 @@ section {
 
 .section-container {
   display: flex;
-  padding: 4vh 10rem; 
+  padding: 4vh 10rem;
   min-height: fit-content;
 }
 
@@ -108,7 +109,7 @@ section {
 }
 
 .pic-container {
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   display: flex;
   height: 400px;
@@ -156,7 +157,6 @@ section {
   gap: 1rem;
 }
 
-
 .btn-1,
 .btn-2 {
   border: rgb (53, 53, 53) 0.1rem solid;
@@ -165,45 +165,38 @@ section {
   transition: all 300ms ease;
   padding: 1rem;
   width: 8rem;
-  
 }
-
 
 .btn-1:hover,
 .btn-2:hover {
   cursor: pointer;
 }
 
-.btn-2:hover{
-  background: rgb(53,53, 53);
-  color: white; 
+.btn-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
 }
-.btn-1{
+.btn-1 {
   background-color: white;
 }
 
 .btn-1:hover {
   background: rgb(0, 0, 0);
-  .btn-resume{
+  .btn-resume {
     color: white;
   }
-
 }
 
 .btn-2 {
   background: black;
-  .btn-contact{
+  .btn-contact {
     color: white;
   }
-  
-  
-
 }
 
-
 .btn-2:hover {
-  border: rgb(255,255,255) 0.1rem solid;
-  .btn-contact{
+  border: rgb(255, 255, 255) 0.1rem solid;
+  .btn-contact {
     color: white;
   }
 }
@@ -213,21 +206,22 @@ section {
 }
 
 footer {
-  text-align: center;
-  padding: 10px;
   background-color: black;
   color: white;
+  text-align: center;
+  padding: 10px;
+position: sticky;
+  bottom: 0px; /* Initially hide the footer */
+  width: 100%;
+  transition: bottom 0.3s ease; 
 }
 
-#about{
-margin-bottom: 0rem;
-/* height: 20rem; */
-height: auto;
+#about {
+  margin-bottom: 0rem;
+  height: auto;
 }
 
-
-.about-me{
-  
+.about-me {
   text-align: center;
   justify-content: center;
   flex-direction: column;
@@ -235,10 +229,42 @@ height: auto;
   margin-top: 2rem;
   margin-bottom: 1rem;
   line-height: 32px;
-  
-
 }
-#projects{
+#projects {
   text-align: center;
   font-size: 30px;
+}
+
+.projects-container {
+  font-size: 16px;
+  margin-bottom: 0rem;
+  height: auto;
+  line-height: 32px;
+}
+
+.vp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+.api-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+.car {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  margin: auto;
 }
