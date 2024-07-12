@@ -3,10 +3,14 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Sora", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 html {
@@ -92,6 +96,8 @@ section {
 
 .section-container {
   display: flex;
+  padding: 4vh 10rem; 
+  min-height: fit-content;
 }
 
 #profile {
@@ -102,6 +108,8 @@ section {
 }
 
 .pic-container {
+  justify-content: center; 
+  align-items: center;
   display: flex;
   height: 400px;
   width: 400px;
@@ -210,15 +218,27 @@ footer {
   background-color: black;
   color: white;
 }
+
+#about{
+margin-bottom: 0rem;
+/* height: 20rem; */
+height: auto;
+}
+
+
 .about-me{
   
   text-align: center;
   justify-content: center;
   flex-direction: column;
-  gap: 2rem;
+
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   line-height: 32px;
   
 
+}
+#projects{
+  text-align: center;
+  font-size: 30px;
 }
