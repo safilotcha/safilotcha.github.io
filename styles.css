@@ -3,15 +3,21 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   font-family: "Sora", sans-serif;
-  display: flex;
+  
   flex-direction: column;
   min-height: 100vh;
+  display: flex;
 
+
+
+}
+main {
+  flex: 1; 
+  padding: 20px;
 }
 
 html {
@@ -210,11 +216,11 @@ footer {
   color: white;
   text-align: center;
   padding: 10px;
-position: sticky;
-  bottom: 0px; 
   width: 100%;
   transition: bottom 0.3s ease; 
+
 }
+
 
 #about {
   margin-bottom: 0rem;
@@ -230,7 +236,7 @@ position: sticky;
   margin-bottom: 1rem;
   line-height: 32px;
 }
-#projects {
+#project1 {
   text-align: center;
   font-size: 30px;
 }
@@ -268,3 +274,14 @@ position: sticky;
   width: 300px;
   margin: auto;
 }
+
+.api1, .car1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  margin: auto;
+}
+
