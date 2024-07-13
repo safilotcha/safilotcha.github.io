@@ -211,7 +211,7 @@ footer {
   text-align: center;
   padding: 10px;
 position: sticky;
-  bottom: 0px; /* Initially hide the footer */
+  bottom: 0px; 
   width: 100%;
   transition: bottom 0.3s ease; 
 }
