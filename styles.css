@@ -121,11 +121,14 @@ section {
   max-width: 100%;
   height: auto;
   margin: auto 0;
+  padding: 0 20px;
 }
 .pic-container img {
-  max-width: 100%; 
-  height: auto; 
-}
+  max-width: 100%;
+  max-height: 100%; 
+  height: auto;
+  object-fit: contain;
+ }
 
 .section-text {
   align-self: center;
