@@ -118,9 +118,13 @@ section {
   justify-content: center;
   align-items: center;
   display: flex;
-  height: 400px;
-  width: 400px;
+  max-width: 100%;
+  height: auto;
   margin: auto 0;
+}
+.pic-container img {
+  max-width: 100%; 
+  height: auto; 
 }
 
 .section-text {
@@ -283,5 +287,11 @@ footer {
   align-items: center;
  
   margin: auto;
+}
+.car1 p{
+  text-align: center;
+  align-items: center;
+
+  
 }
 
