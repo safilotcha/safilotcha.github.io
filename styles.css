@@ -115,23 +115,41 @@ section {
   position: relative;
   justify-content: center;
   align-items: center;
-
   display: flex;
   padding: 0 20px;
-  flex-shrink: 0.2;
-
-  object-fit: contain;
+ 
+  overflow: hidden;
 }
 
 .pic-container img {
   width: 100%;
   max-height: 100%;
   height: auto;
+ object-fit: contain;
+ min-width: 150px;
+ min-height: 150px;
+
+}
+@media (max-width: 768px) {
+  #profile {
+    flex-direction: column; 
+    gap: 2rem;
+  }
+  .pic-container {
+    padding: 0; 
+    min-width: 100px;
+    min-height: 100px;
+  }
+  .section-container {
+    padding: 4vh 2rem;
+    margin: 0;
+  }
 }
 
 .section-text {
   align-self: center;
   text-align: center;
+  flex-shrink: auto;
 }
 
 .section-text p {
