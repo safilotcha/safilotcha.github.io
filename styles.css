@@ -252,9 +252,10 @@ footer {
 .about-me {
   text-align: center;
   justify-content: center;
-  flex-direction: column;
-
-  margin-top: 2rem;
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: auto;
   margin-bottom: 1rem;
   line-height: 32px;
 }
@@ -288,7 +289,7 @@ footer {
   margin: auto;
 }
 
-.car {
+.car-pic {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -299,6 +300,7 @@ footer {
 
 .api1,
 .car1 {
+  
   padding-top: 10px;
   padding-bottom: 10px;
   display: flex;
@@ -310,4 +312,6 @@ footer {
 .car1 p {
   text-align: center;
   align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
 }
